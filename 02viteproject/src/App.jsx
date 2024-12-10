@@ -24,10 +24,11 @@ function App() {
    }
   return (
     <>
+   
     <button id="button1">counter vlaue: {counter}</button><br></br>
     <button onClick={addValue} id="button-add">increase counter  {counter}</button><br></br>
     <button onClick={removeValue} id="button-rem ">Decrease counter {counter}</button>
     </>
-  )
+  ) 
 }
 export default App
